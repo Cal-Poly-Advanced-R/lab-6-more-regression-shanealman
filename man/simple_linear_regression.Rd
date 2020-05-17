@@ -4,7 +4,7 @@
 \alias{simple_linear_regression}
 \title{Implements simple linear regression by hand}
 \usage{
-simple_linear_regression(dat, response, explanatory)
+simple_linear_regression(dat, response, explanatory, method = NULL)
 }
 \arguments{
 \item{dat}{A data frame}
@@ -12,6 +12,8 @@ simple_linear_regression(dat, response, explanatory)
 \item{response}{The name of a response variable in the data frame (unquoted)}
 
 \item{explanatory}{The name of the explanatory variable in the data frame (unquoted)}
+
+\item{method}{The method used to compute the coefficients (NULL, "qr", "gradientdescent")}
 }
 \value{
 A data frame of coefficients

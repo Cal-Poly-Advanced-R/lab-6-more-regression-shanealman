@@ -2,9 +2,13 @@
 
 export("%>%")
 export(find_best_lambda)
+export(mlr_gd)
+export(mlr_qr)
 export(multiple_linear_regression)
 export(predict_from_coefs)
 export(ridge_regression)
 export(simple_linear_regression)
+export(slr_gd)
+import(data.table)
 import(dplyr)
 importFrom(magrittr,"%>%")

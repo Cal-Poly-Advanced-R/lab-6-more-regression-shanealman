@@ -4,12 +4,14 @@
 \alias{multiple_linear_regression}
 \title{Implements linear regression with many predictors by hand}
 \usage{
-multiple_linear_regression(dat, response)
+multiple_linear_regression(dat, response, method = NULL)
 }
 \arguments{
 \item{dat}{A data frame}
 
 \item{response}{The name of a response variable in the data frame (unquoted)}
+
+\item{method}{The method used to compute the coefficients (NULL, "qr", "gradientdescent")}
 }
 \value{
 A data frame of coefficients
